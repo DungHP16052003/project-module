@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Neurial Grotesk", sans-serif;
+}
+body {
+  font-size: 1.8rem;
+}
+.site_1 {
+  background-color: rgba(253, 240, 223, 1);
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0;
+  margin-bottom: 100px;
+}
+.btn {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.btn_logIn {
+  width: 102px;
+  height: 44px;
+  background-color: rgba(11, 13, 33, 1);
+  font-size: 18px;
+  border-radius: 4px;
+}
+.menu {
+  display: flex;
+  gap: 55px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+header li a {
+  width: 71px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(255, 238, 0, 1);
+  }
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 99px;
+}
+.text > h1 {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 66px;
+  color: rgba(11, 13, 33, 1);
+  width: 579px;
+  height: 198px;
+  margin-bottom: 20px;
+}
+.text > h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgba(104, 105, 119, 1);
+  margin-bottom: 10px;
+}
+.text > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 1);
+  width: 585px;
+  height: 84px;
+  margin-bottom: 30px;
+}
+
+.btn_Read_more {
+  width: 138px;
+  height: 44px;
+  border: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: rgba(255, 238, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+.button {
+    position: relative; 
+    i{
+        position: absolute;
+        top: 13px;
+        left: 112px;
+
+    }
+}
+.slides_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.slides_img_box{
+    width: 243px;
+    height: 221.5px;
+    border-radius: 10.23px;
+}
+.blog{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog_card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 50px;
+    row-gap: 40px;
+    margin-bottom: 50px
+}
+.blog_card_text > h3{
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+color: rgba(67, 78, 196, 1);
+margin-bottom: 10px;
+}
+.blog_card_text > H4{
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+color: rgba(0, 0, 0, 1);
+margin-bottom: 20px;
+}
+.blog_card_text > p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: rgba(104, 105, 119, 1);
+margin-bottom: 10px;
+}
+.blog_card_icon > a{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: rgba(67, 78, 196, 1);
+}
+.blog_card_icon > i{
+  color: rgba(67, 78, 196, 1) ;
+
+}
+.btn_Veiw_All_Course {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 204px;
+  height: 58px;
+  border-radius: 8px;
+  color: rgba(11, 13, 33, 1);
+  background-color: rgba(255, 238, 0, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 100px;
+}
+footer {
+  background-color: rgba(253, 240, 223, 1);
+  height: 556px;
+}
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 92px 0;
+  margin-bottom: 20px;
+  h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(11, 13, 33, 1);
+    margin-bottom: 24px;
+  }
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 105, 119, 1);
+    row-gap: 14px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 105, 119, 1);
+    margin-bottom: 18px;
+  }
+}
+.item {
+  margin-bottom: 14px;
+}
+.footer_bottom {
+  margin: auto;
+  width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+}
+.footer_menu {
+  display: flex;
+  gap: 28px;
+  width: 214px;
+  height: 18px;
+}
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_inner > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(104, 105, 119, 1);
+  width: 319px;
+  height: 26px;
+}

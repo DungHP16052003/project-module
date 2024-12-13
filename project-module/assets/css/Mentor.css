@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Neurial Grotesk", sans-serif;
+}
+body {
+  font-size: 1.8rem;
+}
+.site_1 {
+  background-color: rgba(253, 240, 223, 1);
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0;
+}
+.btn {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.btn_logIn {
+  width: 102px;
+  height: 44px;
+  background-color: rgba(11, 13, 33, 1);
+  font-size: 18px;
+  border-radius: 4px;
+}
+.menu {
+  display: flex;
+  gap: 55px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+header li a {
+  width: 71px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(255, 238, 0, 1);
+    width: 102px;
+    height: 44px;
+    border-radius: 4px;
+  }
+}
+.Mentors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 45px;
+}
+.Mentors_content {
+  width: 370px;
+  height: 481px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.Mentors_content > img {
+  width: 370px;
+  height: 332px;
+  border-radius: 10px;
+  margin-top: -21px;
+  margin-bottom: 37px;
+}
+.heart_icon {
+  position: absolute;
+  top: -3%;
+  left: 86%;
+}
+.heart {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+  top: 500px;
+  left: 322px;
+  i {
+    color: rgba(104, 105, 119, 1);
+    font-size: 25px;
+  }
+}
+.heart i:hover{
+  color: rgba(248, 65, 65, 1);
+}
+.send {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(67, 78, 196, 1);
+  border-radius: 50%;
+  border: 1px solid rgba(67, 78, 196, 1);
+}
+.send_icon {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  top: 58%;
+  left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 15px;
+}
+.send i {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mentors_content_text {
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.Mentors_content_text > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(104, 105, 119, 1);
+  margin-bottom: 5px;
+}
+.check {
+  width: 13px;
+  height: 13px;
+  color: rgba(67, 78, 196, 1);
+  margin-left: 3px;
+}
+.name{
+font-weight: 500;
+line-height: 21.6px;
+color: rgba(11, 13, 33, 1);
+}
+.Infor_icon{
+  padding: 10px 20px;
+  display: flex;
+  gap: 50px;
+}
+.Infor_item{
+  gap: 7px;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: rgba(104, 105, 119, 1);
+}
+footer {
+  height: 556px;
+}
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 92px 0;
+  margin-bottom: 20px;
+  h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(11, 13, 33, 1);
+    margin-bottom: 24px;
+  }
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 105, 119, 1);
+    row-gap: 14px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 105, 119, 1);
+    margin-bottom: 18px;
+  }
+}
+.item {
+  margin-bottom: 14px;
+}
+.footer_bottom {
+  margin: auto;
+  width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+}
+.footer_menu {
+  display: flex;
+  gap: 28px;
+  width: 214px;
+  height: 18px;
+}
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_inner > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(104, 105, 119, 1);
+  width: 319px;
+  height: 26px;
+}

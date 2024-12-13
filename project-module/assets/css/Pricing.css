@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Neurial Grotesk", sans-serif;
+}
+body {
+  font-size: 1.8rem;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0;
+}
+.btn {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.btn_logIn {
+  width: 102px;
+  height: 44px;
+  background-color: rgba(11, 13, 33, 1);
+  font-size: 18px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1);
+}
+.menu {
+  display: flex;
+  gap: 55px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+header li a {
+  width: 71px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(255, 238, 0, 1);
+  }
+}
+.Pricing{
+  margin-bottom: 100px;
+}
+.Pricing_text > h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 52px;
+  width: 570px;
+  height: 52px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.Pricing_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Pricing_card_basic {
+  width: 370px;
+  height: 512px;
+  border-radius: 20px;
+  border: 1px solid rgba(233, 234, 240, 1);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 30px 40px;
+}
+
+.Pricing_basic_text > h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  width: 52px;
+  height: 34px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 7px;
+}
+.Pricing_basic_text > h3 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 96px;
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 1);
+}
+.Pricing_basic_text > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  width: 243px;
+  height: 18px;
+  margin-bottom: 25px;
+}
+.Pricing_basic_icons {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 193px;
+}
+.Pricing_basic_icons > i {
+  color: rgba(67, 78, 196, 1);
+  width: 22px;
+  height: 22;
+}
+.Pricing_basic_icons > P {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: 18px;
+}
+.btn_Get_Started_Free {
+  width: 165px;
+  height: 51px;
+  top: 723px;
+  left: 175px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 1);
+  font-family: Neurial Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.Pricing_card_professional {
+  width: 370px;
+  height: 512px;
+  border-radius: 12px;
+  background-color: rgba(17, 23, 39, 1);
+  padding: 30px 40px;
+}
+.Pricing_professional_text > h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  width: 118px;
+  height: 34px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 7px;
+}
+.price {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 96.48px;
+  color: rgba(255, 255, 255, 1);
+  width: 109px;
+  height: 97px;
+}
+.duration {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 1);
+  width: 57px;
+  height: 26px;
+  margin-bottom: 7px;
+}
+.Pricing_professional_text > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(205, 208, 219, 1);
+  width: 248px;
+  height: 36px;
+  margin-bottom: 20px;
+}
+.courses_professional {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(205, 208, 219, 1);
+}
+.check-icon {
+  width: 22px;
+  height: 22px;
+  color: rgba(67, 78, 196, 1);
+}
+.list_icon {
+  margin-bottom: 15px;
+}
+.btn_Get_Started {
+  margin-top: 15px;
+  width: 128px;
+  height: 51px;
+  border-radius: 10px;
+  /* background-color: rgba(255, 238, 0, 1); */
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.Pricing_card_Enterprise {
+  width: 370px;
+  height: 512px;
+  border-radius: 20px;
+  border: 1px solid rgba(233, 234, 240, 1);
+  padding: 30px 40px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.Pricing_Enterprise_plan_text > h2 {
+  width: 144px;
+  height: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 7px;
+}
+.price_Enterprise_plan {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 96.48px;
+  color: rgba(0, 0, 0, 1);
+}
+.duration_Enterprise_plan {
+  font-family: Neurial Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 30px;
+}
+.Pricing_Enterprise_plan_text > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 20px;
+}
+.courses_e_p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+.btn:hover {
+  background-color: rgba(255, 238, 0, 1);
+  color: rgba(11, 13, 33, 1);
+  font-family: Neurial Grotesk;
+  font-weight: 500;
+  line-height: 20px;
+}
+footer {
+  background-color: rgba(253, 240, 223, 1);
+  height: 556px;
+}
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 92px 0;
+  margin-bottom: 20px;
+  h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(11, 13, 33, 1);
+    margin-bottom: 24px;
+  }
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 105, 119, 1);
+    row-gap: 14px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(104, 105, 119, 1);
+    margin-bottom: 18px;
+  }
+}
+.item {
+  margin-bottom: 14px;
+}
+.footer_bottom {
+  margin: auto;
+  width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+}
+.footer_menu {
+  display: flex;
+  gap: 28px;
+  width: 214px;
+  height: 18px;
+}
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_inner > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(104, 105, 119, 1);
+  width: 319px;
+  height: 26px;
+}
+
