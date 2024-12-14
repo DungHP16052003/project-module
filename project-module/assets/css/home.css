@@ -55,8 +55,11 @@ header li a {
   line-height: 28px;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
+  color: rgba(11, 13, 33, 1);
   &:hover {
     background-color: rgba(255, 238, 0, 1);
+   padding: 8px 25px;
+   border-radius: 4px;
   }
 }
 .banner {
@@ -91,6 +94,7 @@ header li a {
   background-color: rgba(11, 13, 33, 1);
   align-items: center;
   font-size: 18px;
+  color: rgba(255, 255, 255, 1);
 }
 .btn_Explore_Courses {
   width: 213px;
@@ -101,6 +105,7 @@ header li a {
   font-size: 18px;
   margin-left: 10px;
   margin-bottom: 98px;
+  color: rgba(255, 255, 255, 1);
 }
 .stars {
   width: 172px;
@@ -567,7 +572,6 @@ header li a {
   width: 120px;
   height: 58px;
   border-radius: 6px;
-  border: 1px solid rgba(11, 13, 33, 1);
   color: rgba(11, 13, 33, 1);
   font-size: 18px;
   font-weight: 700;
@@ -591,6 +595,7 @@ header li a {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
+  border: 1px solid rgba(255, 238, 0, 1);
 }
 .Testimonial {
   width: 1170px;

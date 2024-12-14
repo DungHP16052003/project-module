@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  font-family: "Neurial Grotesk", sans-serif;
+}
+body {
+  font-size: 1.8rem;
+}
 .Features {
   width: 1170px;
   margin-left: auto;

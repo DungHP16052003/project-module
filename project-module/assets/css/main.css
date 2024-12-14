@@ -116,7 +116,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgba(11, 13, 33, 1);
 }
 blockquote,
 q {

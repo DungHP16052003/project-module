@@ -55,10 +55,10 @@ header li a {
   line-height: 28px;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
+  color: rgba(11, 13, 33, 1);
   &:hover {
     background-color: rgba(255, 238, 0, 1);
-    width: 102px;
-    height: 44px;
+    padding: 8px 25px;
     border-radius: 4px;
   }
 }
